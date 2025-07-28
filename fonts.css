@@ -19,3 +19,7 @@
   src: url('https://raw.githubusercontent.com/Ragoli/basteleur-css/main/fonts/webfonts/Basteleur-Moonlight.woff2') format('woff2'),
        url('https://raw.githubusercontent.com/Ragoli/basteleur-css/main/fonts/webfonts/Basteleur-Moonlight.woff') format('woff');
 }
+
+.bold-text {
+      color:red;
+    }
