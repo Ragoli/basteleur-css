@@ -1,15 +1,21 @@
+/*
+  Copia y pega este contenido en tu archivo `fonts.css` en GitHub.
+  Este código usa las rutas completas (absolutas) a cada archivo de fuente,
+  lo cual es la solución más robusta.
+*/
+
 @font-face {
-     font-family: 'Basteleur';
-     font-style: normal;
-     font-weight: 700; /* Bold */
-     src: url('https://gitlab.com/rchglucio/basteleur-css/-/raw/main/fonts/webfonts/Basteleur-Bold.woff2') format('woff2'),
-          url('https://gitlab.com/rchglucio/basteleur-css/-/raw/main/fonts/webfonts/Basteleur-Bold.woff') format('woff');
-   }
-   
-   @font-face {
-     font-family: 'Basteleur';
-     font-style: normal;
-     font-weight: 400; /* Moonlight */
-     src: url('https://gitlab.com/rchglucio/basteleur-css/-/raw/main/fonts/webfonts/Basteleur-Moonlight.woff2') format('woff2'),
-          url('https://gitlab.com/rchglucio/basteleur-css/-/raw/main/fonts/webfonts/Basteleur-Moonlight.woff') format('woff');
-   }
+  font-family: 'Basteleur';
+  font-style: normal;
+  font-weight: 700; /* Bold */
+  src: url('https://raw.githubusercontent.com/Ragoli/basteleur-css/main/fonts/webfonts/Basteleur-Bold.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/Ragoli/basteleur-css/main/fonts/webfonts/Basteleur-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Basteleur';
+  font-style: normal;
+  font-weight: 400; /* Moonlight */
+  src: url('https://raw.githubusercontent.com/Ragoli/basteleur-css/main/fonts/webfonts/Basteleur-Moonlight.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/Ragoli/basteleur-css/main/fonts/webfonts/Basteleur-Moonlight.woff') format('woff');
+}
